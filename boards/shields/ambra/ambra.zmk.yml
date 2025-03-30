@@ -1,0 +1,11 @@
+file_format: "1"
+id: ambra
+name: Ambra
+type: shield
+url: https://github.com/stozi/ambra/
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - ambra_left
+  - ambra_right
