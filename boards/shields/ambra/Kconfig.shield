@@ -1,8 +1,8 @@
 # Copyright (c) 2021 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config SHIELD_AMBRA
+config SHIELD_AMBRA_LEFT
     def_bool $(shields_list_contains,ambra_left)
 
-config SHIELD_AMBRA
+config SHIELD_AMBRA_RIGHT
     def_bool $(shields_list_contains,ambra_right)
